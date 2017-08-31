@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.common_activity_main);
 
         installReadBookBtn = (Button) findViewById(R.id.install_share);
         uninstallReadBtn = (Button) findViewById(R.id.uninstall_share);
